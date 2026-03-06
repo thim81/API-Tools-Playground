@@ -64,6 +64,9 @@ Compare the two files to see how the references were removed or bundled.
 [openapi-format](https://github.com/thim81/openapi-format) is a tool to order, format and filter fields in OpenAPI files. 
 This helps to create a more clean and optimized OpenAPI file for public documentation.
 
+> [!NOTE]
+> openapi-format by default will [bundle](https://github.com/thim81/openapi-format?tab=readme-ov-file#bundling-the-openapi-document) your OpenAPI document 
+
 ### Sorting
 
 Execute the following command to sort your OpenAPI file by applying the default sort order of the tool:
