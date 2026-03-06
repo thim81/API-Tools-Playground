@@ -27,6 +27,18 @@ In another terminal (or any other tool of your choice), you can now call the moc
 curl http://127.0.0.1:4010/pet/1 --header "Authorization: Bearer 1234"
 ```
 
+or via Inspectr (https://inspectr.dev/docs/features/mocking/)
+
+```
+npx @inspectr/inspectr@latest --mock-backend=openapi.yaml
+```
+
+and then
+
+```
+curl http://localhost:8080/pet/1 --header "Authorization: Bearer 1234"
+```
+
 ## Bundling with @redocly/cli
 
 [Redocly CLI](https://github.com/Redocly/redocly-cli) is a tool for working with OpenAPI files including API linting, enhancement, and bundling.
