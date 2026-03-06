@@ -33,7 +33,9 @@ or via Inspectr (https://inspectr.dev/docs/features/mocking/)
 npx @inspectr/inspectr@latest --mock-backend=openapi.yaml
 ```
 
-and then
+open [http://](http://localhost:4004) to view all incoming requests/responses
+
+and next trigger the Mock service
 
 ```
 curl http://localhost:8080/pet/1 --header "Authorization: Bearer 1234"
